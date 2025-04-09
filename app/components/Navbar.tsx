@@ -35,7 +35,7 @@ export default function Navbar() {
             <Link href="/" className={`text-2xl font-bold ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Elegance
+              Shri Venkatesa Vidash Hall
             </Link>
           </div>
 
