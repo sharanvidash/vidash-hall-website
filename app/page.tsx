@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import LocationSection from "./components/LocationSection";
 import GallerySection from "./components/GallerySection";
@@ -13,6 +15,13 @@ export default function Home() {
     { src: "/images/gallery5.jpg", alt: "Hall Decoration" },
     { src: "/images/gallery6.jpg", alt: "Event Setup" },
   ];
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="min-h-screen">
@@ -42,7 +51,10 @@ export default function Home() {
           <p className="text-xl md:text-2xl mb-8">
             Premier Venue for Weddings and Celebrations in Uthiramerur
           </p>
-          <button className="btn-primary px-8 py-3 rounded-lg text-lg font-semibold hover-scale">
+          <button 
+            onClick={() => scrollToSection('location')}
+            className="btn-primary px-8 py-3 rounded-lg text-lg font-semibold hover-scale"
+          >
             Book Now
           </button>
         </div>
