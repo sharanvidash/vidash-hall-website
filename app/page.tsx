@@ -49,7 +49,7 @@ export default function Home() {
             Shri Venkatesa Vidash Hall
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Premier Venue for Weddings and Celebrations in Uthiramerur
+            Premier Venue for Weddings and Celebrations in Chengalpet
           </p>
           <button 
             onClick={() => scrollToSection('location')}
@@ -70,15 +70,15 @@ export default function Home() {
             {[
               {
                 title: "Spacious Venue",
-                description: "Accommodate up to 500 guests in our elegant hall"
+                description: "Accommodate up to 500+ guests in our elegant hall"
               },
               {
-                title: "Modern Kitchen",
-                description: "State-of-the-art catering facilities for your events"
+                title: "Catering Services",
+                description: "Delicious catering services from Vidash Virundhu for your events"
               },
               {
                 title: "Premium Services",
-                description: "Professional event planning and coordination"
+                description: "Professional event planning assistance and coordination"
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover-scale">

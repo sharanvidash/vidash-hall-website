@@ -36,7 +36,7 @@ export default function FooterSection() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2">
-              <li>Phone: +91 98765 43210</li>
+              <li>Phone: +91 87788 51010</li>
               <li>Email: vidashgroupofcompanies@gmail.com</li>
               <li className="leading-relaxed">
                 Survey number 85, 3A, State High Road,<br />
@@ -50,13 +50,13 @@ export default function FooterSection() {
             <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
             <ul className="space-y-2">
               <li>Monday - Sunday</li>
-              <li>Open 24 Hours</li>
+              <li>7 am - 10 pm</li>
               <li>Available for events by appointment</li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>&copy; 2024 Shri Venkatesa Vidash Hall. All rights reserved.</p>
+          <p>&copy; 2025 Shri Venkatesa Vidash Hall. All rights reserved.</p>
         </div>
       </div>
     </footer>
