@@ -129,4 +129,9 @@ export default function MenuPage() {
       </div>
     </div>
   );
-} 
+}
+
+export const metadata = {
+  title: 'Vidash Virundhu Restaurant',
+  description: 'Authentic South Indian Vegetarian Cuisine Menu',
+}; 
